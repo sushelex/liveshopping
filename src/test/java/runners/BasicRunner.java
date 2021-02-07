@@ -34,5 +34,6 @@ public void setup()
 	ExtentCucumberFormatter.loadConfig(new File(System.getProperty("user.dir")+"/resources/extent-config.xml"));
 	ExtentCucumberFormatter.addSystemInfo("name", "sushil kumar gupta");
 	ExtentCucumberFormatter.addSystemInfo("OS", "MAC OS");
+	ExtentCucumberFormatter.addSystemInfo("company", "altimetrik");
 }
 }
