@@ -8,6 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Wait;
@@ -22,6 +23,7 @@ public class SeleniumDriver //extends SeleniumDriverHelper
 	private static Actions action = null;
 	private static JavascriptExecutor js=null;
 	public static Logger log = Logger.getLogger(SeleniumDriver.class.getName());
+	private static String browser = System.getProperty("browser"); 
 	
 	public static JavascriptExecutor getJs()
 	{
@@ -93,7 +95,19 @@ public class SeleniumDriver //extends SeleniumDriverHelper
 	private SeleniumDriver()
 	{
 		System.out.println("selenium driver ctr");
-		driver = new FirefoxDriver();
+		if(browser.equalsIgnoreCase("firefox"))
+		{
+			driver = new FirefoxDriver();			
+		}
+		else if(browser.equalsIgnoreCase("chrome"))
+		{
+			driver = new ChromeDriver();
+		}
+		else
+		{
+			driver = new ChromeDriver();
+		}
+
 		getUrl(url);
 		System.setProperty("current.date", new Date().toString().replace(":", "_").replace(" ", "_"));
 		PropertyConfigurator.configure("/Users/sushilkumargupta/Documents/selenium_frameworks/liveshopping/src/main/java/utils/log4j.properties");

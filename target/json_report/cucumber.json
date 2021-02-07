@@ -1,0 +1,110 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12159642204,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Befores.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "login scenario",
+        "description": "",
+        "id": "delete-from-the-cart;login-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 780926045,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Afters.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3621900888,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "when user is on home screen",
+            "match": {
+              "location": "WomenOptions.when_user_is_on_home_screen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2540482702,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click on tshirt menu",
+            "match": {
+              "location": "TshirtShopping.click_on_tshirt_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48994450,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user able to see the available tshirts",
+            "match": {
+              "location": "TshirtShopping.user_able_to_see_the_available_tshirts()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3199360318,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user hover over the available tshirt",
+            "match": {
+              "location": "TshirtShopping.user_hover_over_the_available_tshirt()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3255556820,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on Add to cart button",
+            "match": {
+              "location": "TshirtShopping.user_click_on_Add_to_cart_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "delete from the cart",
+    "description": "",
+    "id": "delete-from-the-cart",
+    "keyword": "Feature",
+    "uri": "delete_cart.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@delete_cart"
+      }
+    ]
+  }
+]

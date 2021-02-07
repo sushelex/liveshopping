@@ -1,122 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="32.417" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="37.866" tests="1" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="JOB_NAME" value="liveshopping"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="PWD" value="/Users/sushilkumargupta/Documents/jenkin_operations"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="JENKINS_HOME" value="/Users/sushilkumargupta/.jenkins"/>
-    <property name="PATH" value="/usr/local/Caskroom/android-sdk/4333796/platform-tools:/Library/Frameworks/Python.framework/Versions/3.7/bin:/anaconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Applications/apache-maven-3.6.3/bin:/usr/local/mysql/bin/"/>
-    <property name="HUDSON_SERVER_COOKIE" value="58bc3204b94c1b81"/>
-    <property name="POM_ARTIFACTID" value="liveshopping"/>
-    <property name="os.name" value="Mac OS X"/>
-    <property name="TERM_PROGRAM" value="Apple_Terminal"/>
-    <property name="EXECUTOR_NUMBER" value="1"/>
-    <property name="TERM_SESSION_ID" value="769EE956-3F9A-4D21-A392-6CB82F62E7F6"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="POM_DISPLAYNAME" value="liveshopping"/>
-    <property name="NODE_LABELS" value="master"/>
-    <property name="java.runtime.version" value="11.0.6+8-LTS"/>
-    <property name="user.name" value="sushilkumargupta"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="user.language" value="en"/>
-    <property name="JOB_BASE_NAME" value="liveshopping"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:9091/job/liveshopping/5/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#5"/>
-    <property name="TMPDIR" value="/var/folders/9f/v16xhxxs6gg88zbn9tbqf7dh0000gn/T/"/>
-    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.6.jdk/Contents/Home/lib"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="java.version" value="11.0.6"/>
-    <property name="XPC_FLAGS" value="0x0"/>
-    <property name="user.timezone" value="Asia/Kolkata"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="NODE_NAME" value="master"/>
-    <property name="TERM" value="xterm-256color"/>
-    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="BUILD_ID" value="5"/>
-    <property name="sun.cpu.isalist" value=""/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="SHELL" value="/bin/bash"/>
-    <property name="maven.conf" value="/Users/sushilkumargupta/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/local_maven/conf"/>
-    <property name="file.separator" value="/"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="55.0"/>
-    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
-    <property name="user.country" value="IN"/>
-    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.6.jdk/Contents/Home"/>
-    <property name="JAVA_MAIN_CLASS_11648" value="Main"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="os.version" value="10.15.7"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:9091/job/liveshopping/5/display/redirect"/>
-    <property name="POM_VERSION" value="0.0.0-SNAPSHOT"/>
-    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
-    <property name="path.separator" value=":"/>
-    <property name="java.vm.version" value="11.0.6+8-LTS"/>
-    <property name="JOB_DISPLAY_URL" value="http://localhost:9091/job/liveshopping/display/redirect"/>
-    <property name="SHLVL" value="1"/>
-    <property name="_" value="/usr/bin/java"/>
-    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
-    <property name="LOGNAME" value="sushilkumargupta"/>
-    <property name="POM_PACKAGING" value="jar"/>
-    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="HOME" value="/Users/sushilkumargupta"/>
-    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="POM_GROUPID" value="com.shopping"/>
-    <property name="user.home" value="/Users/sushilkumargupta"/>
-    <property name="BUILD_TAG" value="jenkins-liveshopping-5"/>
-    <property name="JENKINS_SERVER_COOKIE" value="58bc3204b94c1b81"/>
-    <property name="XPC_SERVICE_NAME" value="0"/>
-    <property name="HUDSON_URL" value="http://localhost:9091/"/>
-    <property name="java.version.date" value="2020-01-14"/>
-    <property name="JAVA_HOME1" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="CLASSPATH" value=""/>
-    <property name="java.library.path" value="/Users/sushilkumargupta/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="gopherProxySet" value="false"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="maven.home" value="/Users/sushilkumargupta/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/local_maven"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /Users/sushilkumargupta/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/local_maven /Users/sushilkumargupta/.jenkins/war/WEB-INF/lib/remoting-3.36.jar /Users/sushilkumargupta/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar /Users/sushilkumargupta/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar 53958"/>
-    <property name="java.class.path" value="/Users/sushilkumargupta/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.13.jar:/Users/sushilkumargupta/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/local_maven/boot/plexus-classworlds-2.6.0.jar:/Users/sushilkumargupta/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/local_maven/conf/logging"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="java.vm.specification.version" value="11"/>
-    <property name="M2_HOME" value="/Users/sushilkumargupta/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/local_maven"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.os.patch.level" value="unknown"/>
-    <property name="java.io.tmpdir" value="/var/folders/9f/v16xhxxs6gg88zbn9tbqf7dh0000gn/T/"/>
-    <property name="HUDSON_HOME" value="/Users/sushilkumargupta/.jenkins"/>
-    <property name="PATH+MAVEN" value="/Users/sushilkumargupta/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/local_maven/bin"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
-    <property name="OLDPWD" value="/Users/sushilkumargupta/Documents"/>
-    <property name="BUILD_URL" value="http://localhost:9091/job/liveshopping/5/"/>
-    <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.szP4mP5LAK/Listeners"/>
-    <property name="LC_CTYPE" value="UTF-8"/>
-    <property name="os.arch" value="x86_64"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="com.apple.java.jvmTask" value="CommandLine"/>
-    <property name="__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0"/>
-    <property name="user.dir" value="/Users/sushilkumargupta/Documents/selenium_frameworks/liveshopping"/>
-    <property name="JOB_URL" value="http://localhost:9091/job/liveshopping/"/>
-    <property name="JAVA_ARCH" value="x86_64"/>
-    <property name="MAVEN_HOME" value="/Users/sushilkumargupta/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/local_maven"/>
-    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.version" value="11.0.6+8-LTS"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.6.jdk/Contents/Home/lib"/>
+    <property name="browser" value="firefox"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/sushilkumargupta/Documents/selenium_frameworks/liveshopping"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="5"/>
-    <property name="TERM_PROGRAM_VERSION" value="433"/>
-    <property name="ANDROID_HOME" value="/usr/local/Caskroom/android-sdk"/>
-    <property name="JENKINS_URL" value="http://localhost:9091/"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/sushilkumargupta/Documents/selenium_frameworks/liveshopping"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.6+8-LTS"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/9f/v16xhxxs6gg88zbn9tbqf7dh0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Applications/apache-maven-3.6.3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/sushilkumargupta/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/Applications/apache-maven-3.6.3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="library.jansi.path" value="/Applications/apache-maven-3.6.3/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/sushilkumargupta"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="maven3.interceptor" value="/Users/sushilkumargupta/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar"/>
-    <property name="WORKSPACE" value="/Users/sushilkumargupta/.jenkins/workspace/liveshopping"/>
-    <property name="maven3.interceptor.common" value="/Users/sushilkumargupta/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar"/>
     <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="sushilkumargupta"/>
+    <property name="java.class.path" value="/Applications/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -P smoke -Dbrowser=firefox"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.6.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.6"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Applications/apache-maven-3.6.3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
     <property name="java.vendor.version" value="18.9"/>
-    <property name="USER" value="sushilkumargupta"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="feature" classname="runners.BasicRunner" time="28.281"/>
+  <testcase name="feature" classname="runners.BasicRunner" time="26.099"/>
 </testsuite>
