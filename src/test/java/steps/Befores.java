@@ -1,17 +1,16 @@
 package steps;
 
-import org.testng.annotations.BeforeMethod;
 import cucumber.api.java.Before;
 import utils.SeleniumDriver;
 
-
-
 public class Befores {
 	
-	@BeforeMethod
+	@Before
 	public void setup()
 	{
+		System.out.println("inside before method");
 		SeleniumDriver.setupDriver();
+		
 	}
 
 }

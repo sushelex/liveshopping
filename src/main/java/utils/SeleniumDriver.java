@@ -12,9 +12,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 
-public class SeleniumDriver extends SeleniumDriverHelper 
+
+public class SeleniumDriver //extends SeleniumDriverHelper 
 {
 	private static WebDriver driver;
 	private static Wait wait;
@@ -42,7 +42,7 @@ public class SeleniumDriver extends SeleniumDriverHelper
 		{
 			log.info("s1: "+s1);
 			log.info("s2: "+s2);
-			Assert.assertEquals(s1.replace(" ", "").replace("-", "").toLowerCase().contains(s2), true);			
+//			Assert.assertEquals(s1.replace(" ", "").replace("-", "").toLowerCase().contains(s2), true);			
 			log.info("target string conatins the expected string");
 		}
 		catch(AssertionError e)
@@ -92,6 +92,7 @@ public class SeleniumDriver extends SeleniumDriverHelper
 	
 	private SeleniumDriver()
 	{
+		System.out.println("selenium driver ctr");
 		driver = new FirefoxDriver();
 		getUrl(url);
 		System.setProperty("current.date", new Date().toString().replace(":", "_").replace(" ", "_"));

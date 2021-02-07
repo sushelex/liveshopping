@@ -7,7 +7,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 (
 features="src/features",
 glue="steps",
-tags= {"@gyro"}
+tags= {"@delete_cart"}
 )
 public class BasicRunner extends AbstractTestNGCucumberTests
 {

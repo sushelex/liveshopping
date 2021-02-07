@@ -6,6 +6,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import locators.HomePage;
 import utils.SeleniumDriver;
+import utils.SeleniumDriverHelper;
 
 public class HomepageActions 
 {
@@ -89,7 +90,7 @@ public class HomepageActions
 		{
 			if(val.contains("sign")|val.contains("login"))
 			{
-				SeleniumDriver.clickOn(home.signin_link);
+				SeleniumDriverHelper.clickOn(home.signin_link);
 			}
 			if(val.equalsIgnoreCase("add to cart"))
 			{
