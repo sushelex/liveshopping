@@ -19,6 +19,7 @@ public class BuySummaryAction
 	{
 		summary.delete_item.click();
 		SeleniumDriver.log.info("item delete icon is deleted");
+		SeleniumDriver.sleepnow();
 	}
 	
 	
