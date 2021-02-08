@@ -11,7 +11,7 @@ public class DeleteCart
     public void click_on_delete_icon() throws Throwable 
     {
 		
-    	
+    	summary.delete_icon_click();
     }
 
 }

@@ -107,17 +107,25 @@ public class SeleniumDriver //extends SeleniumDriverHelper
 	private SeleniumDriver()
 	{
 		System.out.println("selenium driver ctr");
-		if(browser.equalsIgnoreCase("firefox"))
+		try
 		{
-			driver = new FirefoxDriver();			
+			if(browser.equalsIgnoreCase("firefox"))
+			{
+				driver = new FirefoxDriver();			
+			}
+			else if(browser.equalsIgnoreCase("chrome"))
+			{
+				driver = new ChromeDriver();
+			}
+			else
+			{
+				driver = new ChromeDriver();
+			}
+
 		}
-		else if(browser.equalsIgnoreCase("chrome"))
+		catch(Exception e)
 		{
-			driver = new ChromeDriver();
-		}
-		else
-		{
-			driver = new ChromeDriver();
+			driver = new FirefoxDriver();
 		}
 
 		getUrl(url);
