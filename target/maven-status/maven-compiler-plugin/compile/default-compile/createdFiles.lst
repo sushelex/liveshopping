@@ -1,7 +1,0 @@
-PageActions/LoginAction.class
-utils/SeleniumDriverHelper.class
-PageActions/HomepageActions.class
-locators/HomePage.class
-locators/LoginPage.class
-com/shopping/liveshopping/App.class
-utils/SeleniumDriver.class
