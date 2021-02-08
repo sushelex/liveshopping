@@ -9,4 +9,9 @@ public class SeleniumDriverHelper
 		element.click();
 	}
 	
+	public static void click(WebElement element)
+	{
+		element.click();
+	}
+	
 }

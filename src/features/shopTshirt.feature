@@ -15,8 +15,10 @@ Feature: Tshirt shopping
 		Then user navigated to "<page_title>" screen
 		And sub title is "<sub_title>"
 		And enter "<email>" and "<password>" value
-		And click on signIn button		
-		And user click on "proceed to checkout" button at last page
+		And click on signIn button
+		Then user navigated to "ADDRESSES" screen
+		And sub title is "03. Address"		
+		And user click on "proceed to checkout" on address screen
 		Examples:
 		|page_title    |sub_title|email             |password       |
 		|AUTHENTICATION|Sign in  |sushelex@gmail.com|sush9301664636#| 
