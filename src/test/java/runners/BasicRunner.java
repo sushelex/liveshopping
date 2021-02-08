@@ -15,7 +15,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 (
 features="src/features",
 glue="steps",
-tags= {"@delete_cart"},
+tags= {"@delete_cart", "@execute_it"},
 plugin= {"json:target/json_report/cucumber.json", "pretty", "html:target/html_report/cucumber.html",
 		"com.cucumber.listener.ExtentCucumberFormatter"
 		}
