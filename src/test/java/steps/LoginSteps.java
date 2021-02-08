@@ -39,6 +39,11 @@ public class LoginSteps
        
     }
  */
+    @And("^user click on sign button$")
+    public void user_click_on_sign_button() throws Throwable 
+    {
+    	login.clickSignIn();
+    }
     @Given("^on home screen$")
     public void on_home_screen() throws Throwable {
     	home.onHomePage();

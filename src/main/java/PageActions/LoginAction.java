@@ -31,5 +31,9 @@ public class LoginAction
 		SeleniumDriver.log.info("text "+text+" is entered");
 	}
 	
+	public void clickSignIn()
+	{
+		login.sign.click();
+	}
 
 }

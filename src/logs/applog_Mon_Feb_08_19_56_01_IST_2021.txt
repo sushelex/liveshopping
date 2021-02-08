@@ -1,0 +1,9 @@
+INFO    2021-02-08 19:56:05,561 [main] utils.SeleniumDriver  - logo is clicked
+INFO    2021-02-08 19:56:08,928 [main] utils.SeleniumDriver  - extracted text from the web application : Faded Short Sleeve T-shirts
+INFO    2021-02-08 19:56:08,929 [main] utils.SeleniumDriver  - new text is : fadedshortsleevetshirts
+INFO    2021-02-08 19:56:08,929 [main] utils.SeleniumDriver  - text expected : tshirt
+INFO    2021-02-08 19:56:08,929 [main] utils.SeleniumDriver  - s1: Faded Short Sleeve T-shirts
+INFO    2021-02-08 19:56:08,929 [main] utils.SeleniumDriver  - s2: tshirt
+INFO    2021-02-08 19:56:08,929 [main] utils.SeleniumDriver  - target string conatins the expected string
+INFO    2021-02-08 19:56:12,348 [main] utils.SeleniumDriver  - button add to cart is clicked
+INFO    2021-02-08 19:56:12,348 [main] utils.SeleniumDriver  - add to cart is no matching button
