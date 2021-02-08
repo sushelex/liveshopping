@@ -2,8 +2,6 @@
 @execute_it
 Feature: Tshirt shopping
 
-
-
   Scenario Outline: shopping tshirt online
     Given when user is on home screen
     And click on tshirt menu
@@ -18,6 +16,7 @@ Feature: Tshirt shopping
 		And sub title is "<sub_title>"
 		And enter "<email>" and "<password>" value
 		And click on signIn button		
+		And user click on "proceed to checkout" button at last page
 		Examples:
 		|page_title    |sub_title|email             |password       |
 		|AUTHENTICATION|Sign in  |sushelex@gmail.com|sush9301664636#| 
