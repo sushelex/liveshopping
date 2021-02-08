@@ -22,6 +22,7 @@ public class WomenOptions
 public void when_user_is_on_home_screen() throws Throwable 
 {
 	home.onHomePage();
+	Assert.assertEquals(true, false);
 }
 
 @Given("^hower over \"([^\"]*)\" option$")
