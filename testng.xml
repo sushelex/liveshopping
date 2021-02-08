@@ -10,3 +10,4 @@
 
 
 <!-- mvn clean test -P smoke -Dbrowser=firefox -->
+<!-- https://developers.perfectomobile.com/display/TT/Using+Jenkins+Build+Parameters -->

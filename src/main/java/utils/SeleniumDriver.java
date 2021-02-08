@@ -1,5 +1,6 @@
 package utils;
 
+import java.io.File;
 import java.util.Date;
 
 import org.apache.log4j.Logger;
@@ -14,7 +15,10 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.relevantcodes.extentreports.DisplayOrder;
+import com.relevantcodes.extentreports.ExtentReports;
 
+//mvn clean test -P smoke -Dbrowser=firefox
 public class SeleniumDriver //extends SeleniumDriverHelper 
 {
 	private static WebDriver driver;
@@ -24,6 +28,14 @@ public class SeleniumDriver //extends SeleniumDriverHelper
 	private static JavascriptExecutor js=null;
 	public static Logger log = Logger.getLogger(SeleniumDriver.class.getName());
 	private static String browser = System.getProperty("browser"); 
+	private static ExtentReports extent; 
+	
+	public static ExtentReports getExtent()
+	{
+		extent = new ExtentReports(System.getProperty("user.dir")+"/resources/extent-config.xml", true, DisplayOrder.OLDEST_FIRST);
+		extent.loadConfig(new File(System.getProperty("user.dir")+"/target/extent+report/extent.html"));
+		return extent;
+	}
 	
 	public static JavascriptExecutor getJs()
 	{
