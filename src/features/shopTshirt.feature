@@ -24,7 +24,7 @@ Feature: Tshirt shopping
 		And check the "terms" checkbox
 		And click on checkout button
 		Then User select the "<payment option>" and click on "confirm"
-		And user click on confirm my order button
+#		And user click on confirm my order button
 		Examples:
 		|page_title    |sub_title|email             |password       |payment option|confirm  |
 		|AUTHENTICATION|Sign in  |sushelex@gmail.com|sush9301664636#|bank wire 		 |confirm  |
