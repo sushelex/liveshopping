@@ -17,8 +17,17 @@ public class PaymentAction
 	
 	public void do_payment(String paymentType)
 	{
-		payment.pay_by_wire.click();
-		payment.confirm_order.click();
+		if(paymentType.contains("wire"))
+		{
+			payment.pay_by_wire.click();
+			payment.confirm_order.click();			
+		}
+		else
+		{
+			payment.pay_by_check.click();
+			payment.confirm_order.click();
+		}
+
 	}
 
 }

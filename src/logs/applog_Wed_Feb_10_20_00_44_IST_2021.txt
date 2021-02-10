@@ -1,0 +1,40 @@
+INFO    2021-02-10 20:00:48,143 [main] utils.SeleniumDriver  - logo is clicked
+INFO    2021-02-10 20:00:51,156 [main] utils.SeleniumDriver  - extracted text from the web application : Faded Short Sleeve T-shirts
+INFO    2021-02-10 20:00:51,156 [main] utils.SeleniumDriver  - new text is : fadedshortsleevetshirts
+INFO    2021-02-10 20:00:51,156 [main] utils.SeleniumDriver  - text expected : tshirt
+INFO    2021-02-10 20:00:51,156 [main] utils.SeleniumDriver  - s1: Faded Short Sleeve T-shirts
+INFO    2021-02-10 20:00:51,156 [main] utils.SeleniumDriver  - s2: tshirt
+INFO    2021-02-10 20:00:51,156 [main] utils.SeleniumDriver  - target string conatins the expected string
+INFO    2021-02-10 20:00:54,615 [main] utils.SeleniumDriver  - button add to cart is clicked
+INFO    2021-02-10 20:00:54,615 [main] utils.SeleniumDriver  - add to cart is no matching button
+INFO    2021-02-10 20:00:57,625 [main] utils.SeleniumDriver  - extracted text from the web application : Product successfully added to your shopping cart
+INFO    2021-02-10 20:00:57,626 [main] utils.SeleniumDriver  - new text is : productsuccessfullyaddedtoyourshoppingcart
+INFO    2021-02-10 20:00:57,626 [main] utils.SeleniumDriver  - text expected : added
+INFO    2021-02-10 20:00:57,627 [main] utils.SeleniumDriver  - s1: Product successfully added to your shopping cart
+INFO    2021-02-10 20:00:57,627 [main] utils.SeleniumDriver  - s2: added
+INFO    2021-02-10 20:00:57,627 [main] utils.SeleniumDriver  - target string conatins the expected string
+INFO    2021-02-10 20:00:57,627 [main] utils.SeleniumDriver  - extracted text from the web application : Product successfully added to your shopping cart
+INFO    2021-02-10 20:00:57,627 [main] utils.SeleniumDriver  - new text is : productsuccessfullyaddedtoyourshoppingcart
+INFO    2021-02-10 20:00:57,627 [main] utils.SeleniumDriver  - text expected : successfully
+INFO    2021-02-10 20:00:57,627 [main] utils.SeleniumDriver  - s1: Product successfully added to your shopping cart
+INFO    2021-02-10 20:00:57,627 [main] utils.SeleniumDriver  - s2: successfully
+INFO    2021-02-10 20:00:57,627 [main] utils.SeleniumDriver  - target string conatins the expected string
+INFO    2021-02-10 20:01:00,453 [main] utils.SeleniumDriver  - button proceed to checkout is clicked
+INFO    2021-02-10 20:01:00,454 [main] utils.SeleniumDriver  - proceed to checkout is no matching button
+INFO    2021-02-10 20:01:07,417 [main] utils.SeleniumDriver  - checkout is clicked
+INFO    2021-02-10 20:01:10,437 [main] utils.SeleniumDriver  - expected string: AUTHENTICATION
+INFO    2021-02-10 20:01:10,460 [main] utils.SeleniumDriver  - actual string: AUTHENTICATION
+INFO    2021-02-10 20:01:10,482 [main] utils.SeleniumDriver  - expected string: 02. Sign in
+INFO    2021-02-10 20:01:10,482 [main] utils.SeleniumDriver  - actual string: Sign in
+INFO    2021-02-10 20:01:10,646 [main] utils.SeleniumDriver  - page title before clicking on signin: AUTHENTICATION
+INFO    2021-02-10 20:01:17,516 [main] utils.SeleniumDriver  - page title after clicking on signin: ADDRESSES
+INFO    2021-02-10 20:01:17,519 [main] utils.SeleniumDriver  - expected string: ADDRESSES
+INFO    2021-02-10 20:01:17,536 [main] utils.SeleniumDriver  - actual string: ADDRESSES
+INFO    2021-02-10 20:01:17,554 [main] utils.SeleniumDriver  - expected string: 03. Address
+INFO    2021-02-10 20:01:17,572 [main] utils.SeleniumDriver  - actual string: 03. Address
+INFO    2021-02-10 20:01:25,224 [main] utils.SeleniumDriver  - expected string: SHIPPING
+INFO    2021-02-10 20:01:25,224 [main] utils.SeleniumDriver  - 
+INFO    2021-02-10 20:01:25,226 [main] utils.SeleniumDriver  - expected string: Sign in
+INFO    2021-02-10 20:01:25,226 [main] utils.SeleniumDriver  - 
+INFO    2021-02-10 20:01:25,469 [main] utils.SeleniumDriver  - checkbox is clicked
+INFO    2021-02-10 20:01:28,247 [main] utils.SeleniumDriver  - checkout button is clicked

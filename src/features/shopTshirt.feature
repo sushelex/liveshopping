@@ -23,10 +23,13 @@ Feature: Tshirt shopping
 		And subtitle is "<sub_title>"
 		And check the "terms" checkbox
 		And click on checkout button
+		Then User select the "<payment option>" and click on "confirm"
+		And user click on confirm my order button
 		Examples:
-		|page_title    |sub_title|email             |password       |
-		|AUTHENTICATION|Sign in  |sushelex@gmail.com|sush9301664636#| 
-				
-
+		|page_title    |sub_title|email             |password       |payment option|confirm  |
+		|AUTHENTICATION|Sign in  |sushelex@gmail.com|sush9301664636#|bank wire 		 |confirm  |
+		|payment option|confirm  |sushelex@gmail.com|sush9301664636#|check    		 |confirm  |										                                          	
+#		|bank wire 		 |confirm  |		
+#		|pay by check  |confirm  |
 		
 		
