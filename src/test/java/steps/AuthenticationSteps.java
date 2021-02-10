@@ -14,7 +14,7 @@ public class AuthenticationSteps
     	auth.verifyTitle("authentication", pagetitle);
     }
 
-    @And("^sub title is \"([^\"]*)\"$")
+    @And("^sub-title is \"([^\"]*)\"$")
     public void sub_title_is_something(String subtitle) throws Throwable 
     {
     	auth.verifyTitle("02. Sign in", subtitle);

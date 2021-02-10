@@ -28,7 +28,7 @@ public void setup()
 	SimpleDateFormat sdf = new SimpleDateFormat("ddMMyyyy");
 	Date date = new Date();
 	String d = sdf.format(date);
-	String fileName = System.getProperty("user.dir")+"/target/extent_report/"+d+".html";
+	String fileName = System.getProperty("user.dir")+"/target/extent_report/"+new Date().toString().replace(":","_").replace(" ", "_")+".html";
 	File f = new File(fileName);
 	ExtentCucumberFormatter.initiateExtentCucumberFormatter(f, false);
 	ExtentCucumberFormatter.loadConfig(new File(System.getProperty("user.dir")+"/resources/extent-config.xml"));

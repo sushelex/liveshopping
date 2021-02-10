@@ -14,4 +14,14 @@ public class SeleniumDriverHelper
 		element.click();
 	}
 	
+	public static boolean verifyTitle(String expected, WebElement actual)
+	{
+		SeleniumDriver.log.info("expected string: "+expected);
+		SeleniumDriver.log.info("actual string: "+actual.getText());
+		boolean result = expected.equalsIgnoreCase(actual.getText());
+		return result;
+	}
+	
+	 
+	
 }

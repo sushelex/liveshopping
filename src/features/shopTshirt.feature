@@ -12,15 +12,21 @@ Feature: Tshirt shopping
 		And user click on "proceed to checkout" button
 		And user scroll the page
 		And user click on "proceed to checkout" button at last page
-		Then user navigated to "<page_title>" screen
-		And sub title is "<sub_title>"
+		Then user navigated to "<page_title>" page
+		And sub-title is "<sub_title>" 
 		And enter "<email>" and "<password>" value
 		And click on signIn button
-		Then user navigated to "ADDRESSES" screen
-		And sub title is "03. Address"		
+		Then user navigated to "ADDRESSES" page
+		And sub title "03. Address"		
 		And user click on "proceed to checkout" on address screen
+		Then user navigated to "SHIPPING" page1
+		And subtitle is "<sub_title>"
+		And check the "terms" checkbox
+		And click on checkout button
 		Examples:
 		|page_title    |sub_title|email             |password       |
 		|AUTHENTICATION|Sign in  |sushelex@gmail.com|sush9301664636#| 
+				
+
 		
 		

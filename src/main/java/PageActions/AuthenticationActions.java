@@ -1,5 +1,6 @@
 package PageActions;
 
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
 import locators.AuthenticationPage;
@@ -23,9 +24,20 @@ public class AuthenticationActions
 		return result;
 	}
 	
+	public boolean verifyTitle(String expected, WebElement actual)
+	{
+		SeleniumDriver.log.info("expected string: "+expected);
+		SeleniumDriver.log.info("actual string: "+actual.getText());
+		boolean result = expected.equalsIgnoreCase(actual.getText());
+		return result;
+	}
+	
 	public void signIn()
 	{
+		SeleniumDriver.log.info("page title before clicking on signin: "+auth.pageTitle.getText());
 		auth.signin.click();
+		SeleniumDriver.sleepnow();
+		SeleniumDriver.log.info("page title after clicking on signin: "+auth.pageTitle.getText());
 	}
 	
 	public void enterCredential(String uname, String pass)

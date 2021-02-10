@@ -24,6 +24,7 @@ public class Afters {
 		}
 		if(SeleniumDriver.getDriver() != null)
 		{
+			SeleniumDriver.sleepnow();
 			SeleniumDriver.getDriver().quit();			
 		}
 
