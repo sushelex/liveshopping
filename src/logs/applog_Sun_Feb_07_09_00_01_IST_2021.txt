@@ -1,1 +1,0 @@
-INFO    2021-02-07 09:00:05,320 [main] utils.SeleniumDriver  - logo is clicked

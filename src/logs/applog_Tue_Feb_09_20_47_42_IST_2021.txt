@@ -1,0 +1,33 @@
+INFO    2021-02-09 20:47:48,299 [main] utils.SeleniumDriver  - logo is clicked
+INFO    2021-02-09 20:47:53,587 [main] utils.SeleniumDriver  - extracted text from the web application : Faded Short Sleeve T-shirts
+INFO    2021-02-09 20:47:53,587 [main] utils.SeleniumDriver  - new text is : fadedshortsleevetshirts
+INFO    2021-02-09 20:47:53,587 [main] utils.SeleniumDriver  - text expected : tshirt
+INFO    2021-02-09 20:47:53,588 [main] utils.SeleniumDriver  - s1: Faded Short Sleeve T-shirts
+INFO    2021-02-09 20:47:53,588 [main] utils.SeleniumDriver  - s2: tshirt
+INFO    2021-02-09 20:47:53,588 [main] utils.SeleniumDriver  - target string conatins the expected string
+INFO    2021-02-09 20:47:56,819 [main] utils.SeleniumDriver  - Unable to locate element: a[title^='Add']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'sushils-MacBook-Air.local', ip: '2405:201:c009:b032:48f6:6274:d4fb:c3ed%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 85.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210204182252, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 18961, moz:profile: /var/folders/9f/v16xhxxs6gg..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.6.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 23386120-54d9-be49-83ae-f6869666309a
+*** Element info: {Using=css selector, value=a[title^='Add']}
+INFO    2021-02-09 20:47:59,832 [main] utils.SeleniumDriver  - extracted text from the web application : Product successfully added to your shopping cart
+INFO    2021-02-09 20:47:59,833 [main] utils.SeleniumDriver  - new text is : productsuccessfullyaddedtoyourshoppingcart
+INFO    2021-02-09 20:47:59,833 [main] utils.SeleniumDriver  - text expected : added
+INFO    2021-02-09 20:47:59,833 [main] utils.SeleniumDriver  - s1: Product successfully added to your shopping cart
+INFO    2021-02-09 20:47:59,833 [main] utils.SeleniumDriver  - s2: added
+INFO    2021-02-09 20:47:59,833 [main] utils.SeleniumDriver  - target string conatins the expected string
+INFO    2021-02-09 20:47:59,834 [main] utils.SeleniumDriver  - extracted text from the web application : Product successfully added to your shopping cart
+INFO    2021-02-09 20:47:59,834 [main] utils.SeleniumDriver  - new text is : productsuccessfullyaddedtoyourshoppingcart
+INFO    2021-02-09 20:47:59,834 [main] utils.SeleniumDriver  - text expected : successfully
+INFO    2021-02-09 20:47:59,834 [main] utils.SeleniumDriver  - s1: Product successfully added to your shopping cart
+INFO    2021-02-09 20:47:59,834 [main] utils.SeleniumDriver  - s2: successfully
+INFO    2021-02-09 20:47:59,834 [main] utils.SeleniumDriver  - target string conatins the expected string
+INFO    2021-02-09 20:47:59,858 [main] utils.SeleniumDriver  - Element <a class="btn btn-default button button-medium" href="http://automationpractice.com/index.php?controller=order"> could not be scrolled into view
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'sushils-MacBook-Air.local', ip: '2405:201:c009:b032:48f6:6274:d4fb:c3ed%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 85.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210204182252, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 18961, moz:profile: /var/folders/9f/v16xhxxs6gg..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.6.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 23386120-54d9-be49-83ae-f6869666309a
