@@ -16,7 +16,7 @@ Feature: Tshirt shopping
 		And sub-title is "<sub_title>" 
 		And enter "<email>" and "<password>" value
 		And click on signIn button
-		Then user navigated to "ADDRESSES" page
+#		Then user navigated to "ADDRESSES" page
 		And sub title "03. Address"		
 		And user click on "proceed to checkout" on address screen
 		Then user navigated to "SHIPPING" page1
