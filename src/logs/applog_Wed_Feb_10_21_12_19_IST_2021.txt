@@ -1,0 +1,2 @@
+INFO    2021-02-10 21:12:24,530 [main] utils.SeleniumDriver  - logo is clicked
+INFO    2021-02-10 21:12:27,669 [main] utils.SeleniumDriver  - howered over women
