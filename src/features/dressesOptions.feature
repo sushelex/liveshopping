@@ -1,4 +1,4 @@
-
+@dress
 Feature: Dresses options
 
 	
@@ -6,7 +6,7 @@ Feature: Dresses options
 		Given when user is on home screen
 		Then user hover over DRESSES
 		And see options
-		|CASUAL |
-		|EVENING|
-		|SUMMER |
+		|Casual Dresses |
+		|Evening Dresses|
+		|Summer Dresses |
 		

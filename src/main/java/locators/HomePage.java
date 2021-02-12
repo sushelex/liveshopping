@@ -6,6 +6,18 @@ import org.openqa.selenium.support.How;
 
 public class HomePage 
 {
+	@FindBy(how=How.XPATH, using="(//*[contains(@title,'Dresses')])[5]")
+	public WebElement dresses;
+	
+	@FindBy(how=How.XPATH, using="(//*[contains(@title, 'Casual Dresses')])[2]")
+	public WebElement casual_dresses;
+	
+	@FindBy(how=How.XPATH, using="(//*[contains(@title, 'Evening Dresses')])[2]")
+	public WebElement evening_dresses;
+	
+	@FindBy(how=How.XPATH, using="(//*[contains(@title, 'Summer Dresses')])[2]")
+	public WebElement summer_dresses;
+	
 	@FindBy(how=How.CSS, using="a.login")
 	public WebElement signin_link;
 	

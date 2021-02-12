@@ -16,6 +16,11 @@ public class HomepageActions
 		this.home= new HomePage(); 
 		PageFactory.initElements(SeleniumDriver.getDriver(), this.home);
 	}
+	
+	public HomePage getHome()
+	{
+		return home;
+	}
 	public void onHome()
 	{
 		home.logo.click();

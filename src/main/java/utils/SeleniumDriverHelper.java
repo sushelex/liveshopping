@@ -1,5 +1,6 @@
 package utils;
 
+import org.apache.http.util.Asserts;
 import org.openqa.selenium.WebElement;
 
 public class SeleniumDriverHelper 
@@ -14,6 +15,21 @@ public class SeleniumDriverHelper
 		element.click();
 	}
 	
+	public static boolean isSame(WebElement element, String data)
+	{
+		if(element.getText().contains(data))
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+	public static void howerOnElement(WebElement element)
+	{
+		SeleniumDriver.getActions().moveToElement(element).build().perform();
+	}
 	public static boolean verifyTitle(String expected, WebElement actual)
 	{
 		SeleniumDriver.log.info("expected string: "+expected);
