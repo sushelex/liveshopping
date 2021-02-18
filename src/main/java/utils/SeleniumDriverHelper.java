@@ -29,6 +29,7 @@ public class SeleniumDriverHelper
 	public static void howerOnElement(WebElement element)
 	{
 		SeleniumDriver.getActions().moveToElement(element).build().perform();
+		SeleniumDriver.sleepnow();
 	}
 	public static boolean verifyTitle(String expected, WebElement actual)
 	{

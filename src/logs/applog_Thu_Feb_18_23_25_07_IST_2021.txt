@@ -1,0 +1,10 @@
+INFO    2021-02-18 23:25:09,681 [main] utils.SeleniumDriver  - logo is clicked
+INFO    2021-02-18 23:25:16,001 [main] utils.SeleniumDriver  - hovered over element: Evening Dresses
+ERROR   2021-02-18 23:25:22,879 [main] utils.SeleniumDriver  - Unable to locate element: a.fancybox-item.fancybox-close
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'sushils-MacBook-Air.local', ip: '2405:201:c009:b032:a0dd:2e5b:9d95:5955%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 85.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210208133944, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 8336, moz:profile: /var/folders/9f/v16xhxxs6gg..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.6.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a22e96c3-90f2-5046-b715-e866c59c93c6
+*** Element info: {Using=css selector, value=a.fancybox-item.fancybox-close}

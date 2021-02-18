@@ -1,7 +1,0 @@
-INFO    2021-02-12 23:14:15,085 [main] utils.SeleniumDriver  - logo is clicked
-ERROR   2021-02-12 23:14:15,332 [main] utils.SeleniumDriver  - expected: Casual Dresses actual: Casual Dresses
-ERROR   2021-02-12 23:14:15,332 [main] utils.SeleniumDriver  - expected same:<Casual Dresses> was not:<Casual Dresses>
-ERROR   2021-02-12 23:14:15,391 [main] utils.SeleniumDriver  - expected: Evening Dresses actual: Evening Dresses
-ERROR   2021-02-12 23:14:15,393 [main] utils.SeleniumDriver  - expected same:<Evening Dresses> was not:<Evening Dresses>
-ERROR   2021-02-12 23:14:15,445 [main] utils.SeleniumDriver  - expected: Summer Dresses actual: Summer Dresses
-ERROR   2021-02-12 23:14:15,445 [main] utils.SeleniumDriver  - expected same:<Summer Dresses> was not:<Summer Dresses>

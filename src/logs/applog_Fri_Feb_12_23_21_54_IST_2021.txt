@@ -1,2 +1,0 @@
-INFO    2021-02-12 23:21:59,167 [main] utils.SeleniumDriver  - logo is clicked
-INFO    2021-02-12 23:22:12,006 [main] utils.SeleniumDriver  - expected: [[FirefoxDriver: firefox on MAC (3b50ead8-151e-cb4a-bed0-eaee845e4692)] -> xpath: (//*[contains(@title, 'Casual Dresses')])[2]] actual: Casual Dresses is matched

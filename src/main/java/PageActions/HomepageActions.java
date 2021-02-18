@@ -26,6 +26,8 @@ public class HomepageActions
 		home.logo.click();
 		SeleniumDriver.log.info("logo is clicked");
 	}
+	
+	
 	public void click_checkout()
 	{
 		home.checkout_lastpage.click();

@@ -121,11 +121,15 @@ public class SeleniumDriver //extends SeleniumDriverHelper
 			{
 				driver = new ChromeDriver();
 			}
+			
+			driver.manage().window().fullscreen();;
+			System.out.println("window is maximized");
 
 		}
 		catch(Exception e)
 		{
 			driver = new FirefoxDriver();
+			driver.manage().window().fullscreen();;
 		}
 
 		getUrl(url);

@@ -1,4 +1,0 @@
-INFO    2021-02-12 23:25:57,506 [main] utils.SeleniumDriver  - logo is clicked
-INFO    2021-02-12 23:25:57,773 [main] utils.SeleniumDriver  - expected: Casual Dresses actual: Casual Dresses is matched
-INFO    2021-02-12 23:25:57,857 [main] utils.SeleniumDriver  - expected: Evening Dresses actual: Evening Dresses is matched
-INFO    2021-02-12 23:25:57,912 [main] utils.SeleniumDriver  - expected: Summer Dresses actual: Summer Dresses is matched
